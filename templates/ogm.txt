@@ -1,0 +1,4 @@
+{{#chapters}}
+CHAPTER{{num_str}}={{start_str}}
+CHAPTER{{num_str}}NAME={{name}}
+{{/chapters}}

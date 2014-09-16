@@ -1,0 +1,35 @@
+Page;
+Page_Begin;
+Page_Middle;
+Page_End;
+;
+File;
+File_Begin;{\n
+File_Middle;,\n
+File_End;}
+;
+General;      "path": "%CompleteName%",\n      "size": %FileSize%,\n      "bitrate": $if(%OverallBitRate%,%OverallBitRate%,false),\n      "duration": $if(%Duration%,%Duration%,false),\n      "created": "%File_Created_Date%",\n      "modified": "%File_Modified_Date%",\n      "encoded": "$if(%Encoded_Date%,%Encoded_Date%,false)",\n      "tagged": "$if(%Tagged_Date%,%Tagged_Date%,false)",\n      "menu": $if(%MenuCount%,true,false)\n
+General_Begin;     "General": {\n
+General_Middle;
+General_End;    }\n
+;
+Video;      {\n          "track_id": %ID%,\n          "width": %Width%,\n          "height": %Height%,\n          "codec": "%Format%",\n          "fps": $if(%FrameRate%,%FrameRate%,false),\n          "bitrate": $if(%BitRate%,%BitRate%,false),\n          "profile":$if(%Format_Profile%, "%Format_Profile%", false),\n          "aspect":$if(%DisplayAspectRatio%, "%DisplayAspectRatio/String%", false)\n      }
+Video_Begin;     ,"Video": [\n
+Video_Middle;,\n
+Video_End;\n    ]\n
+;
+Audio;      {\n          "track_id": %ID%,\n          "ch": %Channel(s)%,\n          "ch_pos": "%ChannelPositions%",\n          "sample_rate": "%SamplingRate%",\n          "codec": "%Codec%",\n          "bitrate": $if(%BitRate%,%BitRate%,false),\n          "bitrate_mode": "$if(%BitRate_Mode%,%BitRate_Mode%,false)",\n          "lang": $if(%Language%, "%Language/String3%",false),\n          "lng": $if(%Language%, "%Language%",false)\n      }
+Audio_Begin;     ,"Audio": [\n
+Audio_Middle;,\n
+Audio_End;\n    ]\n
+;
+Image;      {\n          "track_id": %ID%,\n          "format": "%Format%",\n          "mime": "%InternetMediaType%",\n          "width": "%Width%",\n          "height": "%Height%",\n          "color_space": "%ColorSpace%",\n          "chroma": "%ChromaSubsampling%",\n          "resolution": "%Resolution%",\n          "bitdepth": "%BitDepth%",\n          "compression_mode": "%Compression_Mode%",\n          "size": "%StreamSize%"\n      }
+Image_Begin;     ,"Image": [\n
+Image_Middle;,\n
+Image_End;\n    ]\n
+;
+Text;      {\n          "track_id": %ID%,\n          "lang": $if(%Language%, "%Language/String3%",false),\n          "lng": $if(%Language%, "%Language%",false),\n          "codec": "%CodecID%"\n      }
+Text_Begin;     ,"Subs": [
+Text_Middle;,\n
+Text_End;\n    ]\n
+;

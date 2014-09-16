@@ -1,0 +1,42 @@
+{
+  "name": "rpav",
+  "version": "0.0.1",
+  "description": "Wrapper around many multimedia tools for handling multimedia data.",
+  "main": "./lib/rpav",
+  "preferGlobal": true,
+  "bin": {
+    "rpav": "./cli.js"
+  },
+  "author": {
+    "name": "Rodrigo Polo",
+    "url": "http://rodrigopolo.com/"
+  },
+  "url": "http://github.com/rodrigopolo/rpav",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rodrigopolo/rpav.git"
+  },
+  "keywords": [
+    "mediainfo",
+    "mp4box",
+    "mkvtoolnix",
+    "mplayer",
+    "remuxing",
+    "mkv",
+    "m4v",
+    "mp4"
+  ],
+
+  "dependencies": {
+    "child_quee": "0.0.1",
+    "mustache": "0.8.x",
+    "nopt": "3.0.x",
+    "rimraf": "2.2.x"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/rodrigopolo/rpav/issues"
+  }
+}
