@@ -1,6 +1,6 @@
 {
   "name": "rpav",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapper around many multimedia tools for handling multimedia data (Under development).",
   "main": "./lib/rpav",
   "preferGlobal": true,
