@@ -1,7 +1,7 @@
 {
   "name": "rpav",
   "version": "0.0.1",
-  "description": "Wrapper around many multimedia tools for handling multimedia data.",
+  "description": "Wrapper around many multimedia tools for handling multimedia data (Under development).",
   "main": "./lib/rpav",
   "preferGlobal": true,
   "bin": {
@@ -27,7 +27,6 @@
     "m4v",
     "mp4"
   ],
-
   "dependencies": {
     "child_quee": "0.0.1",
     "mustache": "0.8.x",

@@ -52,9 +52,14 @@ Bin location
 Temp Config on OS X
 ```
 var mtool = new rpav({
-        bin_mediainfo: './bin/mediainfo/mediainfo',
-        bin_mplayer: './bin/mplayer/mplayer',
-        bin_mp4box: './bin/GPAC/MP4Box',
-        bin_mkvmerge: './bin/mkvtoolnix/mkvmerge'
+        bin_mediainfo: __dirname+'/bin/mediainfo/mediainfo',
+        bin_mplayer: __dirname+'/bin/mplayer/mplayer',
+        bin_mp4box: __dirname+'/bin/GPAC/MP4Box',
+        bin_mkvmerge: __dirname+'/bin/mkvtoolnix/mkvmerge'
 });
 ```
+
+
+#### Pack
+* [Windows](http://rodrigopolo.com/files/rpav/bin.zip)
+* [Max OS X](http://rodrigopolo.com/files/rpav/mac_bin.zip)
