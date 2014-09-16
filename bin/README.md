@@ -47,6 +47,7 @@ Bin location
 
 # OS X
 /usr/local/lib/node_modules/rpav/bin
+~/.npm/lib/node_modules/rpav/
 ```
 
 Temp Config on OS X
