@@ -13,8 +13,8 @@ Install
 
 ```
 # This is under development
-npm install rpav -g
-npm install git://github.com/visionmedia/express.git -g
+npm -g install rpav
+npm -g install git://github.com/rodrigopolo/rpav.git
 ```
 
 Usage
