@@ -24,6 +24,9 @@ Usage
 ```
 # This is under development
 
+# Check version
+rpav -v
+
 # remux from MP4/M4V to MKV
 rpav -remux -i input.m4v -o output.mkv
 
@@ -41,7 +44,6 @@ Requirements
 * [MPlayer](http://www.mplayerhq.hu/design7/dload.html#binaries)
 * [MP4Box](http://gpac.wp.mines-telecom.fr/downloads/gpac-nightly-builds/)
 * [MKVToolNix](https://www.bunkus.org/videotools/mkvtoolnix/downloads.html)
-
 
 
 License

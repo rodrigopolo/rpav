@@ -30,10 +30,10 @@ console.log('');
 var rpav = require("./");
 
 var mtool = new rpav({
-	bin_mediainfo: './bin/mediainfo/MediaInfo.exe',
-	bin_mplayer: './bin/mplayer/mplayer.exe',
-	bin_mp4box: './bin/GPAC/mp4box.exe',
-	bin_mkvmerge: './bin/mkvtoolnix/mkvmerge.exe'
+	bin_mediainfo: __dirname+'/bin/mediainfo/MediaInfo.exe',
+	bin_mplayer: __dirname+'/bin/mplayer/mplayer.exe',
+	bin_mp4box: __dirname+'/bin/GPAC/mp4box.exe',
+	bin_mkvmerge: __dirname+'/bin/mkvtoolnix/mkvmerge.exe'
 });
 
 if (parsed.version) {

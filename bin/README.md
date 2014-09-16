@@ -38,3 +38,23 @@ bin
 \---mplayer
         mplayer
 ```
+
+
+Bin location
+```
+:: Windows
+%appdata%\npm\node_modules\rpav\bin
+
+# OS X
+/usr/local/lib/node_modules/rpav/bin
+```
+
+Temp Config on OS X
+```
+var mtool = new rpav({
+        bin_mediainfo: './bin/mediainfo/mediainfo',
+        bin_mplayer: './bin/mplayer/mplayer',
+        bin_mp4box: './bin/GPAC/MP4Box',
+        bin_mkvmerge: './bin/mkvtoolnix/mkvmerge'
+});
+```
