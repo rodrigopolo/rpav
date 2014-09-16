@@ -65,13 +65,13 @@ if (parsed.version) {
 						process.exit(0);
 					},
 					error: function(str){
-						
+
 					}
 				});
 			}else{
 				console.log('Remuxing '+mux+' is not supported yet.');
 			}
-			
+
 		}else{
 			console.log('Input not found.');
 		}
@@ -117,5 +117,5 @@ if (parsed.version) {
 	if(parsed.argv.cooked<1){
 		console.log('Action undefined, currenlty working on the man info.');
 	}
-	
+
 }
