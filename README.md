@@ -15,6 +15,7 @@ Install
 # This is under development
 npm -g install rpav
 npm -g install git://github.com/rodrigopolo/rpav.git
+npm -g uninstall rpav
 ```
 
 Usage

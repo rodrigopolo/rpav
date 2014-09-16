@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var nopt = require("nopt");
 var Stream = require("stream").Stream;
 var path = require("path");
